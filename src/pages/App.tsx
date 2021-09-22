@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { Credentials, StringTranslations } from '@crowdin/crowdin-api-client'
 import { LangType } from '@pancakeswap-libs/uikit'
 // import { LangType, useModal } from '@pancakeswap-libs/uikit'
+import { MigrationV2 } from 'components/Banner'
 import VersionBar from 'components/VersionBar'
 import Popups from '../components/Popups'
 import Web3ReactManager from '../components/Web3ReactManager'
@@ -130,6 +131,7 @@ export default function App() {
           >
             <TranslationsContext.Provider value={{ translations, setTranslations }}>
               <Menu>
+              <MigrationV2 />
                 <BodyWrapper>
                   <Popups />
                   <Web3ReactManager>
