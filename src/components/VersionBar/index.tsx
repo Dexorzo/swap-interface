@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, ButtonMenu, ButtonMenuItem, Button, HelpIcon, Link } from '@pancakeswap-libs/uikit'
+import { Text, Button, HelpIcon, Link } from '@pancakeswap-libs/uikit'
+// import { Text, ButtonMenu, ButtonMenuItem, Button, HelpIcon, Link } from '@pancakeswap-libs/uikit'
 
 const Wrapper = styled.div`
   position: fixed;
@@ -22,25 +23,25 @@ const VersionBar = () => {
   return (
     <Wrapper>
       <Text bold mr="16px">
-        Version:
+      Pancake-Swap on BSC Testnet - Powered by DEXORZO
       </Text>
-      <ButtonMenu variant="primary" scale="sm" activeIndex={1}>
+      {/* <ButtonMenu variant="primary" scale="sm" activeIndex={1}>
         <ButtonMenuItem as="a" href="https://exchange.pancakeswap.finance/">
           V2
         </ButtonMenuItem>
         <ButtonMenuItem as="a" href="https://v1exchange.pancakeswap.finance/#/">
           V1 (old)
         </ButtonMenuItem>
-      </ButtonMenu>
+      </ButtonMenu> */}
       <Button
         variant="subtle"
         as={Link}
-        href="https://v1exchange.pancakeswap.finance/#/migrate"
+        href="https://github.com/Dexorzo/pancake-swap"
         endIcon={<HelpIcon color="white" />}
         scale="sm"
         ml="16px"
       >
-        Help
+        Github Source
       </Button>
     </Wrapper>
   )
