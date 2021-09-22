@@ -7,7 +7,7 @@
     "patch": 0
   },
   "tags": {},
-  "logoURI": "https://exchange.pancakeswap.finance/images/pancakeswap.png",
+  "logoURI": "https://swap.dexorzo.com/images/pancakeswap.png",
   "keywords": ["pancake", "default"],
   "tokens": [
     {
@@ -16,7 +16,7 @@
       "address": "0x89a4eb5f1ff4fffd90a6fd03320a1fd4bd12eeda",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/coins/0x89a4eb5f1ff4fffd90a6fd03320a1fd4bd12eeda.png"
+      "logoURI": "https://swap.dexorzo.com/images/coins/0x89a4eb5f1ff4fffd90a6fd03320a1fd4bd12eeda.png"
     },
     {
       "name": "BUSD Token",
@@ -24,7 +24,7 @@
       "address": "0xcc0c468c7bce8e1947f1353e1c3e4c76eaf45993",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/coins/0xcc0c468c7bce8e1947f1353e1c3e4c76eaf45993.png"
+      "logoURI": "https://swap.dexorzo.com/images/coins/0xcc0c468c7bce8e1947f1353e1c3e4c76eaf45993.png"
     },
     {
       "name": "Dai Token",
@@ -32,7 +32,7 @@
       "address": "0x045baf23abe247b8112df96fa1e246ff9d1f6df5",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/coins/0x045baf23abe247b8112df96fa1e246ff9d1f6df5.png"
+      "logoURI": "https://swap.dexorzo.com/images/coins/0x045baf23abe247b8112df96fa1e246ff9d1f6df5.png"
     },
     {
       "name": "Ethereum Token",
@@ -40,7 +40,7 @@
       "address": "0xcf7a38145b4fb39ef672b251ec1fc232e9ac0b36",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/coins/0xcf7a38145b4fb39ef672b251ec1fc232e9ac0b36.png"
+      "logoURI": "https://swap.dexorzo.com/images/coins/0xcf7a38145b4fb39ef672b251ec1fc232e9ac0b36.png"
     },
     {
       "name": "Tether USD",
@@ -48,7 +48,7 @@
       "address": "0x88a45dead3ceef2b04ec0f948cdb87065ae87faa",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/coins/0x88a45dead3ceef2b04ec0f948cdb87065ae87faa.png"
+      "logoURI": "https://swap.dexorzo.com/images/coins/0x88a45dead3ceef2b04ec0f948cdb87065ae87faa.png"
     }
   ]
 }
